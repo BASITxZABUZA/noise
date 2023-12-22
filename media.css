@@ -1,0 +1,50 @@
+@media screen and (max-width: 500px) {
+    .upper-bottom{
+        flex-direction: column;
+        min-height: 70vh;
+    }
+    .upper-bottom h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .list{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .info,.social{
+        width: 240px;
+        margin-top: 30px;
+    }
+    .social{
+        text-align: center;
+    }
+    #bottom{
+        flex-direction: column;
+        min-width: 100vw;
+    }
+    .bottom1{
+        min-width: inherit ;
+    }
+    .bottom2{
+        min-width: inherit ;
+    }
+    .bottom3{
+        min-width: inherit ;
+    }
+    .bottom4{
+        min-width: inherit ;
+    }
+}
+@media screen and (max-width: 300px) {
+    .info p{
+        width: 20%;
+        margin: 1px;
+    }
+}
+@media screen and (max-width: 800px) {
+    #bottom p{
+        font-size: 20px;
+ 
+    }
+}
